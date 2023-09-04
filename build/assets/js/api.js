@@ -25,6 +25,9 @@ async function apikey() {
   try {
     let data = await fetchApiGet('checkapikey')
     console.log(data)
+    document.querySelector("#request").innerHTML = data.result.requests
+    document.querySelector("#today").innerHTML = data.result.today
+
   } catch (error) {
     console.log(error)
 

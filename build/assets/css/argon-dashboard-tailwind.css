@@ -61,7 +61,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Open Sans;
+  font-family: Comfortaa;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -907,11 +907,6 @@ h6 {
   margin-bottom: 1rem;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-56 {
   margin-top: 14rem;
   margin-bottom: 14rem;
@@ -1247,20 +1242,12 @@ h6 {
   height: calc(100vh - 360px);
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .max-h-8 {
   max-height: 2rem;
 }
 
 .max-h-screen {
   max-height: 100vh;
-}
-
-.max-h-full {
-  max-height: 100%;
 }
 
 .min-h-50-screen {
@@ -1545,16 +1532,6 @@ h6 {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-translate-y-full {
-  --tw-translate-y: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-0 {
-  --tw-translate-y: -0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-rotate-45 {
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1645,20 +1622,12 @@ h6 {
   overflow: visible;
 }
 
-.overflow-scroll {
-  overflow: scroll;
-}
-
 .overflow-x-auto {
   overflow-x: auto;
 }
 
 .overflow-y-auto {
   overflow-y: auto;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .whitespace-nowrap {
@@ -1950,11 +1919,6 @@ h6 {
 
 .bg-red-500\/30 {
   background-color: rgb(245 57 57 / 0.3);
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(222 226 230 / var(--tw-bg-opacity));
 }
 
 .bg-slate-500 {
@@ -2506,7 +2470,7 @@ h6 {
 }
 
 .font-sans {
-  font-family: Open Sans;
+  font-family: Comfortaa;
 }
 
 .text-2 {
@@ -3946,10 +3910,6 @@ h6 {
     width: 50%;
   }
 
-  .sm\:w-full {
-    width: 100%;
-  }
-
   .sm\:flex-none {
     flex: none;
   }
@@ -4337,10 +4297,6 @@ h6 {
 
   .xl\:w-4\/12 {
     width: 33.333333%;
-  }
-
-  .xl\:w-full {
-    width: 100%;
   }
 
   .xl\:flex-none {
