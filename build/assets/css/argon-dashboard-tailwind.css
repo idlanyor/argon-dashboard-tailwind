@@ -1242,6 +1242,10 @@ h6 {
   height: calc(100vh - 360px);
 }
 
+.h-11 {
+  height: 2.75rem;
+}
+
 .max-h-8 {
   max-height: 2rem;
 }
@@ -2684,6 +2688,11 @@ h6 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-slate-850 {
+  --tw-text-opacity: 1;
+  color: rgb(17 28 68 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -3470,6 +3479,10 @@ h6 {
 
 .hover\:bg-white\/10:hover {
   background-color: rgb(255 255 255 / 0.1);
+}
+
+.hover\:bg-blue-500\/13:hover {
+  background-color: rgb(94 114 228 / 0.13);
 }
 
 .hover\:text-blue-500:hover {
