@@ -3,7 +3,6 @@ async function fetchApiGet(endpoint, params = '') {
   return new Promise((resolve, reject) => {
     let xhr = new XMLHttpRequest();
     let method = 'GET'
-    let apik = 'yuliyanazakiyaf'
     let url = `https://api.lolhuman.xyz/api/${endpoint}?apikey=${apik}${params}`
     xhr.open(method, url, true)
     xhr.onload = () => {
